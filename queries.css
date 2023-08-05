@@ -1,0 +1,691 @@
+/* 
+1rem = 1em = 16px
+*/
+
+/* Below 1344 px */
+
+/****************************
+        Below 1040px 
+*****************************/
+@media (max-width: 65em) {
+  .grid-3-cols {
+    gap: 2.4rem;
+  }
+
+  #left-nav ul {
+    gap: 2.4rem;
+    padding: 0;
+  }
+
+  .heading-primary {
+    font-size: 3.6rem;
+  }
+
+  .hero-text {
+    font-size: 1.6rem;
+    padding-right: 8rem;
+  }
+
+  .financial-wellness-left,
+  .financial-wellness-right {
+    max-width: 70%;
+  }
+
+  .feature-card {
+    padding: 2.4rem;
+  }
+
+  .invest-earn-first {
+    margin-right: 0;
+  }
+
+  #tompurse-app-image-1 {
+    max-width: 80%;
+  }
+
+  #tompurse-app-image-2 {
+    max-width: 63%;
+    transform: translate(-6rem, 3rem);
+  }
+
+  .invest-earn-second {
+    max-width: 90%;
+    justify-self: center;
+  }
+
+  .testimonial-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 4.8rem;
+  }
+
+  .testimonial-1 {
+    justify-self: end;
+  }
+
+  .testimonial-2 {
+    justify-self: start;
+  }
+
+  .testimonial-2 fieldset {
+    box-shadow: 1rem 1rem 0.1rem 0.5rem #022b69;
+    transform: skew(10deg) rotate(2deg);
+    padding-left: 2.4rem;
+  }
+
+  .testimonial-2 fieldset p,
+  .testimonial-2 fieldset h5,
+  .testimonial-2 fieldset img {
+    transform: skew(-10deg) rotate(-2deg);
+  }
+
+  .testimonial-3 {
+    grid-column: span 2;
+  }
+
+  .testimonial-3 fieldset {
+    box-shadow: 0.1rem 2rem 0.1rem 0.5rem #022b69;
+    transform: skewX(10deg) rotate(5deg);
+    padding: 0 0 1.6rem 1.6rem;
+  }
+
+  .testimonial-3 fieldset p,
+  .testimonial-3 fieldset h5,
+  .testimonial-3 fieldset img {
+    transform: skewX(-10deg) rotate(-5deg);
+  }
+
+  .testimonial fieldset h5 {
+    font-size: 1.2rem;
+  }
+
+  .footer-top-left {
+    justify-self: center;
+  }
+}
+
+/****************************
+        Below 880px 
+*****************************/
+@media (max-width: 55em) {
+  html {
+    font-size: 50%;
+  }
+
+  .header {
+    gap: 1.2rem;
+  }
+
+  .hero.grid {
+    padding: 0;
+  }
+
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+
+  .hero-left {
+    padding-top: 8rem;
+    padding-left: 4.8rem;
+  }
+
+  .hero-right {
+    position: relative;
+  }
+
+  .hero-img {
+    bottom: -11rem;
+    transform: scale(0.8);
+    left: -10rem;
+  }
+
+  #left-nav,
+  #right-nav {
+    gap: 2.4rem;
+  }
+
+  .invest-earn-second {
+    max-width: 80%;
+    justify-self: center;
+  }
+
+  .download-app {
+    width: 35%;
+  }
+
+  #tompurse-app-image-2 {
+    max-width: 63%;
+    transform: translate(-7.5rem, 3.5rem);
+  }
+}
+
+/****************************
+        Below 784px 
+*****************************/
+@media (max-width: 49em) {
+  .header {
+    gap: 0;
+  }
+
+  #left-nav {
+    gap: 1.2rem;
+  }
+
+  .nav-btn.btn:link,
+  .nav-btn.btn:visited {
+    font-size: 1.6rem;
+  }
+
+  .big-text-font {
+    font-size: 1.4rem;
+  }
+
+  .heading-primary {
+    font-size: 3.6rem;
+  }
+
+  .heading-secondary,
+  .testimonial-heading {
+    font-size: 2.4rem;
+  }
+
+  .section-financial-wellness {
+    gap: 4.8rem;
+  }
+
+  .financial-wellness-left,
+  .financial-wellness-right {
+    max-width: 70%;
+  }
+
+  .invest-earn {
+    gap: 4.8rem;
+  }
+
+  .testimonial-heading {
+    font-size: 3.6rem;
+  }
+
+  .testimonial-top .first img {
+    width: 5rem;
+  }
+
+  .footer-top-right {
+    grid-template-columns: auto auto auto auto;
+    gap: 3.2rem;
+  }
+}
+
+/****************************
+        Below 680px 
+*****************************/
+@media (max-width: 42.5em) {
+  html {
+    font-size: 40%;
+  }
+
+  .heading-secondary {
+    font-size: 3rem;
+  }
+
+  #left-nav ul,
+  #right-nav ul {
+    gap: 1.6rem;
+  }
+
+  .nav-btn.btn:link,
+  .nav-btn.btn:visited {
+    padding: 0.8rem 2.4rem;
+  }
+
+  .hero-text {
+    font-size: 1.4rem;
+    padding-right: 6.4rem;
+  }
+
+  .hero-img {
+    bottom: -18rem;
+    left: -18rem;
+    transform: scale(0.65);
+  }
+
+  .heading-primary {
+    font-size: 4rem;
+  }
+
+  .section-financial-wellness {
+    gap: 4.8rem;
+  }
+
+  .financial-wellness-left,
+  .financial-wellness-right {
+    max-width: 80%;
+  }
+
+  .financial-wellness-goal {
+    padding: 0 2.4rem;
+  }
+
+  .zero-commission-bottom {
+    gap: 1.6rem;
+  }
+
+  .feature-card h3 {
+    font-size: 2.2rem;
+  }
+
+  .transparent-plan-btn {
+    padding: 1.2rem 6.4rem;
+  }
+
+  #tompurse-app-image-2 {
+    max-width: 63%;
+    transform: translate(-9.2rem, 5rem);
+  }
+
+  .testimonial-heading {
+    font-size: 3.6rem;
+  }
+
+  .testimonial-top .first img {
+    width: 5rem;
+  }
+
+  .testimonial-top .second {
+    gap: 1.2rem;
+  }
+
+  .testimonial-top .second img {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .footer-top-right {
+    gap: 2.4rem;
+  }
+}
+
+/****************************
+        Below 512px 
+*****************************/
+@media (max-width: 32em) {
+  html {
+    font-size: 62.5%;
+  }
+
+  .header {
+    padding-left: 1rem;
+  }
+
+  #second,
+  #fourth,
+  #sixth {
+    padding: 0 3.2rem;
+  }
+
+  .heading-primary {
+    font-size: 3.2rem;
+    margin-bottom: 4.8rem;
+  }
+
+  .heading-secondary {
+    font-size: 2.4rem;
+  }
+
+  .heading-tertiary {
+    font-size: 1.8rem;
+  }
+
+  /********************************
+           MOBILE NAVIGATION 
+  *********************************/
+
+  #left-nav ul,
+  #right-nav ul {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .nav-btn.btn:link,
+  .nav-btn.btn:visited {
+    padding: 1rem 4.8rem;
+    font-weight: 600;
+  }
+
+  .nav {
+    background-color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 99;
+    transform: translateX(100%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 4.8rem;
+    padding-top: 4.8rem;
+
+    transition: all 1s ease-out;
+
+    /* Steps involved in hidding an element without using display: none */
+    /* 1) Hide component visually */
+    opacity: 0;
+
+    /* 2) Make component unaccessible to mouse and keyboard */
+    pointer-events: none;
+
+    /* 3) Hide component from screen readedrs */
+    visibility: hidden;
+  }
+
+  .nav-open .nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .icon-mobile-nav[name="close"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu"] {
+    display: none;
+  }
+
+  .mobile-nav-btn {
+    display: flex;
+    z-index: 999;
+  }
+
+  .hero.grid {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    height: fit-content;
+    text-align: center;
+  }
+
+  .hero-left {
+    padding: 2.4rem 2.4rem 0;
+    margin: 0;
+    text-align: center;
+  }
+
+  .hero-left .heading-primary {
+    font-size: 3.6rem;
+  }
+
+  .hero-text {
+    padding: 0 3.2rem 2.4rem;
+    margin: 0;
+  }
+
+  .hero-img {
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 70%;
+    transform: translate(14%) scale(1.2);
+  }
+
+  .section-financial-wellness,
+  .section-strong-security .grid,
+  .section-zero-commission,
+  .zero-commission-bottom,
+  .section-transparent-plans,
+  .transparent-plans-bottom,
+  .section-invest-earn,
+  .invest-earn,
+  .testimonial-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 4.8rem;
+    align-items: center;
+  }
+
+  .feature-card {
+    max-width: 25rem;
+  }
+
+  .feature-card h3 {
+    font-size: 1.6rem;
+  }
+
+  .feature-card p {
+    font-size: 1.4rem;
+  }
+
+  .section-invest-earn,
+  .invest-earn-second {
+    gap: 2.4rem;
+  }
+
+  .invest-earn .invest-earn-second .heading-primary {
+    margin-bottom: 1.6rem;
+  }
+
+  .invest-earn {
+    margin: 6.4rem 0;
+  }
+
+  .section-transparent-plans {
+    gap: 1rem;
+  }
+
+  .financial-wellness-left,
+  .financial-wellness-right,
+  .strong-security-right {
+    max-width: 100%;
+  }
+
+  .financial-wellness-goal {
+    padding-right: 2rem;
+  }
+
+  .financial-wellness-goal h3 {
+    font-size: 1.8rem;
+  }
+
+  .financial-wellness-goal p {
+    font-size: 1.4rem;
+  }
+
+  .section-strong-security {
+    padding-top: 2.4rem;
+  }
+
+  .strong-security-img {
+    padding: 0;
+  }
+
+  .zero-commission-top {
+    max-width: 50%;
+  }
+
+  .zero-commission-text {
+    font-size: 1rem;
+  }
+
+  .transparent-plans-top .heading-secondary {
+    font-size: 2.4rem;
+    padding: 0 1.2rem;
+    margin-bottom: 0;
+  }
+
+  .transparent-plans-bottom.grid {
+    margin-bottom: 0;
+    padding-bottom: 4.8rem;
+  }
+
+  .big-text-font {
+    font-size: 1rem;
+    line-height: 1.2;
+  }
+
+  .transparent-plan-btn {
+    margin-top: 2.4rem;
+    padding: 1rem 3.2rem;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .hidden-box ul {
+    gap: 3.2rem;
+  }
+
+  .hidden-box p {
+    text-align: start;
+    font-size: 1.4rem;
+  }
+
+  #tompurse-app-image-1 {
+    max-width: 60%;
+  }
+
+  #tompurse-app-image-2 {
+    max-width: 48%;
+    transform: translate(-4.5rem, 2rem);
+  }
+
+  .download-tompurse-app {
+    gap: 1rem;
+  }
+
+  .testimonial-top .first {
+    gap: 0;
+  }
+
+  .testimonial-heading {
+    font-size: 1.4rem;
+  }
+
+  .testimonial-top .first img {
+    width: 3rem;
+  }
+
+  .testimonial-top .second {
+    gap: 0.6rem;
+  }
+
+  .testimonial-top .second img {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  fieldset {
+    width: 25rem;
+  }
+
+  .testimonial-3 fieldset {
+    transform: skew(-10deg) rotate(2deg);
+    box-shadow: -1rem 1rem 0.1rem 0.5rem #022b69;
+    padding: 1.2rem;
+  }
+
+  .testimonial-3 fieldset p,
+  .testimonial-3 fieldset h5,
+  .testimonial-3 fieldset img {
+    transform: skew(10deg) rotate(-2deg);
+  }
+
+  .testimonial p {
+    font-size: 1rem;
+  }
+
+  .section-call-to-action {
+    height: 21em;
+  }
+
+  .cta-grid {
+    display: grid;
+    grid-template-columns: 6rem 6rem;
+    grid-template-rows: 6rem 3rem;
+    justify-content: start;
+    padding: 0 3.2rem;
+  }
+
+  .call-to-action {
+    position: absolute;
+    top: 4rem;
+    left: 50%;
+    transform: translate(-50%);
+    gap: 3.2rem;
+  }
+
+  .cta-text {
+    font-size: 1.8rem;
+  }
+
+  .cta-btn {
+    padding: 1.2rem 3.2rem;
+    font-size: 1.4rem;
+  }
+
+  .footer-top {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-top-right {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: auto auto;
+    gap: 4.8rem 0;
+
+    margin: 0;
+    padding-left: 1.2rem;
+  }
+
+  footer h3 {
+    font-size: 1.6rem;
+  }
+
+  ul:not(.hidden-box ul) {
+    font-size: 1.4rem;
+    gap: 3.2rem;
+  }
+
+  li:not(.hidden-box li) {
+    height: 0;
+    display: block;
+  }
+
+  .footer .four img {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  #social--links {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .footer-bottom {
+    font-size: 1rem;
+    letter-spacing: normal;
+  }
+
+  /****************************
+        Below 320px 
+  *****************************/
+  @media (max-width: 20em) {
+    footer h3 {
+      font-size: 1.4rem;
+    }
+
+    ul:not(.hidden-box ul) {
+      font-size: 1rem;
+      gap: 3.2rem;
+    }
+  }
+}

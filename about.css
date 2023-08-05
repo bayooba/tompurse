@@ -1,0 +1,320 @@
+.header {
+  background-color: #f4f8fc;
+}
+
+#navbar a:not(a.btn):link,
+#navbar a:not(a.btn):visited {
+  color: #254094;
+}
+
+.btn.nav-btn:link,
+.btn.nav-btn:visited {
+  background-color: #254094;
+  color: #ffffff;
+  padding: 0.8rem 4.8rem;
+}
+
+.btn.nav-btn:hover,
+.btn.nav-btn:active {
+  background-color: #ffffff;
+  color: #254094;
+  box-shadow: #254094 0 0 0 0.1rem inset;
+}
+
+/************************************
+            SECTION ONE
+*************************************/
+
+section#one {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10rem;
+  margin: 0 auto;
+}
+
+.section-one-top {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  text-align: center;
+  align-items: center;
+  margin-top: 8rem;
+}
+
+.section-one-top h1 {
+  font-size: 4.8rem;
+  color: #022b69;
+  max-width: 70%;
+  line-height: 1.2;
+}
+
+.section-one-top p {
+  font-size: 1.6rem;
+  color: #3d3d46;
+  width: 55%;
+  line-height: 1.2;
+}
+
+.section-one-bottom {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  column-gap: 5rem;
+  padding: 0 3.2rem;
+}
+
+.section-one-bottom .first {
+  max-width: 80%;
+  margin-left: 3.2rem;
+}
+
+.section-one-bottom h3 {
+  font-size: 2.4rem;
+  margin-bottom: 2.4rem;
+  color: #022b69;
+}
+
+.section-one-bottom p {
+  font-size: 1.8rem;
+  color: #5a5773;
+  line-height: 1.2;
+}
+
+/************************************
+            SECTION TWO
+*************************************/
+section#two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2rem;
+  background-color: #f4f8fc;
+  padding: 3rem;
+  margin-top: 15rem;
+}
+
+.section-two-top {
+  margin-bottom: 2rem;
+  color: #022b69;
+}
+
+.section-two-top h2 {
+  font-size: 3.6rem;
+}
+
+.section-two-bottom {
+  display: flex;
+  column-gap: 1.5rem;
+  padding-bottom: 3rem;
+}
+
+.section-two-bottom .one,
+.section-two-bottom .two,
+.section-two-bottom .three {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  background-color: #ffffff;
+  padding: 1rem 1.5rem 5rem;
+}
+
+.section-two-bottom .one h3,
+.section-two-bottom .two h3,
+.section-two-bottom .three h3 {
+  font-size: 1.8rem;
+  color: #022b69;
+  width: 50%;
+  margin-bottom: 2rem;
+  line-height: 1.2;
+}
+
+.section-two-bottom .one p,
+.section-two-bottom .two p,
+.section-two-bottom .three p {
+  font-size: 1.4rem;
+  color: #5a5773;
+  line-height: 1.2;
+}
+
+.section-two-bottom div img {
+  float: right;
+  max-width: 100%;
+  margin-top: 1.6rem;
+}
+
+/************************************
+            SECTION THREE
+*************************************/
+section#three {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8rem;
+}
+
+.section-three-top {
+  text-align: center;
+  color: #022b69;
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin: auto;
+  padding: 0 2.4rem;
+}
+
+.section-three-bottom {
+  margin-top: 4rem;
+  padding: 0 3.2rem;
+  margin-left: 3.2rem;
+}
+
+.section-three-bottom h3 {
+  color: #022b69;
+  padding-bottom: 1rem;
+  font-size: 2.4rem;
+}
+
+.section-three-bottom p {
+  font-size: 1.8rem;
+  color: #1ad5fe;
+  padding-bottom: 3rem;
+}
+
+section#seventh {
+  margin-top: 10rem;
+}
+
+/************************************
+        MEDIA QUERIES
+*************************************/
+/****************************
+        Below 880px 
+*****************************/
+@media (max-width: 55em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+/****************************
+        Below 784px 
+*****************************/
+@media (max-width: 49em) {
+  .section-two-bottom div img {
+    max-width: 30%;
+  }
+}
+
+/****************************
+        Below 680px 
+*****************************/
+@media (max-width: 42.5em) {
+  html {
+    font-size: 40%;
+  }
+
+  .section-two-bottom div img {
+    max-width: 30%;
+  }
+}
+
+/******************************************
+        MOBILE NAVIGATION
+******************************************/
+
+/****************************
+        Below 512px 
+*****************************/
+@media (max-width: 32em) {
+  section#one {
+    row-gap: 6.4rem;
+  }
+
+  .section-one-top h1 {
+    font-size: 2.4rem;
+  }
+
+  .section-one-top p {
+    font-size: 1.2rem;
+  }
+
+  .section-one-bottom {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    row-gap: 4.8rem;
+  }
+
+  .section-one-bottom .first {
+    grid-row: 2;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .section-one-bottom h3 {
+    font-size: 2.4rem;
+    text-align: center;
+  }
+
+  .section-one-bottom p {
+    font-size: 1.4rem;
+  }
+
+  section#two {
+    row-gap: 2rem;
+    margin-top: 10rem;
+  }
+
+  .section-two-top h2 {
+    font-size: 3rem;
+  }
+
+  .section-two-bottom {
+    flex-direction: column;
+    max-width: 80%;
+    gap: 3.2rem;
+  }
+
+  .section-two-bottom .one,
+  .section-two-bottom .two,
+  .section-two-bottom .three {
+    display: flex;
+    row-gap: 1.6rem;
+    padding: 1rem 2.4rem 5rem;
+  }
+
+  .section-two-bottom .one p,
+  .section-two-bottom .two p,
+  .section-two-bottom .three p {
+    line-height: 1.3;
+  }
+
+  .section-two-bottom div img {
+    max-width: 30%;
+  }
+
+  section#three {
+    margin-top: 8rem;
+  }
+
+  .section-three-top {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+
+  .section-three-bottom {
+    margin-left: 0;
+  }
+
+  .section-three-bottom h3 {
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+
+  .section-three-bottom p {
+    font-size: 1.2rem;
+    line-height: 1.4;
+  }
+
+  section#seventh {
+    margin-top: 4.8rem;
+  }
+}
